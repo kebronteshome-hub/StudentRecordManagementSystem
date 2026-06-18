@@ -70,10 +70,6 @@ public class FileManager {
 
         dis.close();
     }
-
-
-    // OBJECT SERIALIZATION
-
     public static void saveObject(List<Student> students) throws Exception {
 
         ObjectOutputStream oos =
