@@ -6,8 +6,6 @@ import java.util.Scanner;
 
 public class FileManager {
 
-    // TEXT FILE
-
     public static void saveText(List<Student> students) throws Exception {
 
         PrintWriter pw = new PrintWriter("students.txt");
@@ -29,9 +27,6 @@ public class FileManager {
 
         sc.close();
     }
-
-
-    // BINARY FILE
 
     public static void saveBinary(List<Student> students) throws Exception {
 
@@ -71,9 +66,6 @@ public class FileManager {
             }
 
         } catch (EOFException e) {
-
-            // End of file reached
-
         }
 
         dis.close();
