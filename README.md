@@ -1,6 +1,6 @@
 # Student Record Management System
 ## Overview
-This System is a Java application that manages student information using OOP principles. It allows users to create, store, analyze, and back up student records while demonstrating file handling and serialization techniques as we learnt in our lessons.
+I made this project with a goal tobuild java application that manages student information using OOP principles we have learnt in our course. It allows users to create, store, analyze, and back up student records while demonstrating file handling and serialization techniques as we learnt in our lessons.
 
 ## Features My Project Has
 - Add and manage student records
